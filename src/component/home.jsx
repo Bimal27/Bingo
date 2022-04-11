@@ -92,7 +92,7 @@ const Home = props => {
     }
     setTimeout(() => {
       setConfettiStatus(false);
-    }, 20000);
+    }, 6000);
   };
 
   const checkColumn = y => {
@@ -103,7 +103,7 @@ const Home = props => {
     }
     setTimeout(() => {
       setConfettiStatus(false);
-    }, 10000);
+    }, 6000);
   };
 
   const checkDiagonal = (x, y) => {
@@ -113,7 +113,7 @@ const Home = props => {
     }
     setTimeout(() => {
       setConfettiStatus(false);
-    }, 10000);
+    }, 6000);
   };
 
   const checkRightDiagonal = (x, y) => {
@@ -123,7 +123,7 @@ const Home = props => {
     }
     setTimeout(() => {
       setConfettiStatus(false);
-    }, 10000);
+    }, 6000);
   };
 
   return (
